@@ -1,0 +1,36 @@
+.grabbtn {
+  background: rgb(60, 150, 215);
+  background: linear-gradient(
+    90deg,
+    rgba(60, 150, 215, 1) 0%,
+    rgba(247, 43, 34, 1) 35%,
+    rgba(248, 203, 21, 1) 100%
+  );
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #eee;
+  height: 53px;
+  width: 282px;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .grabbtn{
+height: 26px;
+width: 138px;
+font-size: 10px;
+line-height: 29px;
+  }
+}
+
+
+
+

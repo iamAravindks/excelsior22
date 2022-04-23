@@ -1,0 +1,128 @@
+.container {
+  height: 170vh;
+}
+
+.exImgMain {
+  height: 100vh;
+  /* background-color: aqua; */
+  display: flex;
+
+  align-items: center;
+}
+
+.exImgContainer {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 350px;
+  padding: 1rem;
+}
+
+.exImg {
+  height: 320px;
+  width: 446px;
+  border-radius: 0px;
+  margin: 15px;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .exImgMain {
+    justify-content: flex-end;
+    background: url("../../images/bg2.svg"), url("../../images/bg1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .exImgContainer {
+    margin-right: 274px;
+  }
+}
+
+/* hero text */
+
+.heroText {
+  width: 100%;
+  text-align: center;
+  /* margin: 50px 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  /* background-color: red; */
+  flex-direction: row;
+  margin-top: 4.5rem;
+}
+.heroText > h1 {
+  font-family: Mont;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 144px;
+  letter-spacing: -0.005em;
+  text-align: justified;
+}
+.line1,
+.line2 {
+  height: 1px;
+  width: 58px;
+  background-color: #eee;
+  border-radius: 0px;
+  display: inline-block;
+  /* margin: 1rem; */
+
+  margin-top: 1rem;
+}
+.line1 {
+  margin-right: 1.5rem;
+}
+.line2 {
+  margin-left: 1.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .exImgMain {
+    justify-content: center;
+    background: url("../../images/bg3.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+  }
+
+  .line1,
+  .line2 {
+    display: none;
+  }
+
+  .heroText > h1 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 35px;
+  }
+  .heroText{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .exImg {
+    height: 214px;
+    width: 372px;
+  }
+  .exImgContainer {
+    width: 390px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .exImgContainer {
+    width: 350px;
+  }
+  .exImg {
+    width: 350px;
+    height: 190px;
+  }
+}
