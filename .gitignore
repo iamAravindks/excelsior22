@@ -58,6 +58,8 @@ typings/
 .cache/
 public
 
+/.vscode
+
 # Mac files
 .DS_Store
 
