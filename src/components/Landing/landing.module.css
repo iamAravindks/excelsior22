@@ -153,6 +153,20 @@
   margin-bottom: 2rem;
 }
 
+.logoContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3C96D7;
+  margin-top: 3.7rem;
+}
+
+@media screen and (min-width: 960px) {
+  .logoImgMb{
+    display: none;
+  }
+}
 @media screen and (max-width: 1200px) {
   .exImgMain {
     justify-content: center;
@@ -189,6 +203,7 @@
 }
 
 @media screen and (max-width: 960px) {
+
   .exImgContainer {
     width: 350px;
   }
@@ -241,6 +256,15 @@
     text-align: justify;
     letter-spacing: 0.035em;
   }
+
+  .logoContainer{
+    background: transparent;
+
+
+  }
+  .logoImg{
+    display: none;
+  }
 }
 
 
@@ -264,6 +288,6 @@
 
 @media screen and (max-width: 400px){
   .answer{
-    height: 80%;
+    height: 100%;
   }
 }

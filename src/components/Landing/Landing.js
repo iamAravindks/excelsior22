@@ -55,6 +55,23 @@ const Landing = () => {
           </p>
         </div>
       </div>
+
+      {/* logo section */}
+
+      <div className={styles.logoContainer}>
+        <StaticImage
+          alt="excelsior coordinators"
+          src="../../images/logoGroup.svg"
+          loading="lazy"
+          className={styles.logoImg}
+        />
+        <StaticImage
+          alt="excelsior coordinators"
+          src="../../images/logoGroupMb.svg"
+          loading="lazy"
+          className={styles.logoImgMb}
+        />
+      </div>
     </div>
   )
 }
