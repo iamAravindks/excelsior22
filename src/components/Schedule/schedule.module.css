@@ -1,27 +1,33 @@
-.container{
-    margin-top: 2.5rem;
+.container {
+  margin-top: 2.5rem;
 }
 
-  .exImgContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+.exImgContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 
-  }
+}
 
-  .heading > h1{
-    font-family: "Montserrat", sans-serif;
+.heading>h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 9rem;
+  letter-spacing: -0.005em;
+  text-align: center;
+}
+
+.exImg {
+  margin: 1.5rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .heading>h1 {
     font-size: 3rem;
-    font-weight: 900;
-    line-height: 9rem;
-    letter-spacing: -0.005em;
-    text-align: center;
   }
-
-  .exImg{
-    margin: 1.5rem;
-  }
+}

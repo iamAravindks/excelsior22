@@ -1,0 +1,66 @@
+/* .container{
+} */
+
+.exImgContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  /* margin: 1.5rem; */
+
+
+}
+
+.ticketContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.heading>h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 9rem;
+  letter-spacing: -0.005em;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 9rem;
+  letter-spacing: -0.005em;
+  text-align: center;
+}
+
+.exImg {
+  margin: 2.5rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .tickets {
+    justify-content: center;
+    background: center url("../../images/frame.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 2.5rem;
+  }
+
+  .heading>h1{
+    font-size: 3rem;
+  }
+
+  /* .grabBtnContainer {} */
+
+}
