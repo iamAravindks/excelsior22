@@ -40,5 +40,21 @@
 .guestSection .guests .third .imageComponent {
   width: 300.03px;
   height: 308.41px;
-  background: #333;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.guestSection .guests .first .imageComponent .letter,
+.guestSection .guests .second .imageComponent .letter,
+.guestSection .guests .third .imageComponent .letter {
+  font-size: 40px;
+  position: absolute;
+}
+.guestSection .guests .first .imageComponent .content,
+.guestSection .guests .second .imageComponent .content,
+.guestSection .guests .third .imageComponent .content {
+  width: 247.43px;
+  height: 265.61px;
+  background-color: #292929;
+  border-radius: 13px;
 }/*# sourceMappingURL=Guests.module.css.map */

@@ -43,7 +43,20 @@
       .imageComponent {
         width: 300.03px;
         height: 308.41px;
-        background: #333;
+        display: flex;
+        position: relative;
+        justify-content: center;
+
+        .letter {
+          font-size: 40px;
+          position: absolute;
+        }
+        .content {
+          width: 247.43px;
+          height: 265.61px;
+          background-color: #292929;
+          border-radius: 13px;
+        }
       }
     }
   }
