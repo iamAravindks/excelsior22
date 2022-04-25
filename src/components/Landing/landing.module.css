@@ -1,5 +1,10 @@
-.container {
+/*.container {
   height: 170vh;
+}*/
+
+.infoContainer{
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
 }
 
 .exImgMain {
@@ -99,7 +104,7 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 3.125rem;
+  font-size: 4.125rem;
   line-height: 143.9%;
   text-align: justify;
   letter-spacing: -0.005em;
@@ -155,11 +160,14 @@
 
   }
   .question {
-  margin-right: -10rem;
+    width: 50%;
+  position: relative;
+  left:5rem;
 }
 }
 
 @media screen and (max-width: 1200px) {
+  
   .exImgMain {
     justify-content: center;
     background: url("../../images/bg3.svg");
@@ -215,22 +223,28 @@
 }
 
 
+
 /*for infoContainer*/
+
 @media screen and (min-width:768px){
-  .infoContainer{
-   min-height:700px ;
-   
+  .container .infoContainer{
+   min-height:1000px ;
+   position: relative;
+   margin-top: 80px;   
   }
-  .answer{
-    gap: 20px; 
+  
+  .container .infoContainer .answer{
+    gap: 25px; 
   }
-  .infoContainer .answer .answer1,.infoContainer .answer .answer2{
-    font-size: 15px;
+  .container .infoContainer .answer .answer1,.container .infoContainer .answer .answer2{
+    font-size: 20px;
   }
   
 }
 
 @media screen and (max-width:767px){
+
+
   .exImgMain{
     height: 300px;
     position: relative;
@@ -249,7 +263,18 @@
     order: 1;
     position: relative;
     bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 2.5rem;
+
   }  
+  .container .infoContainer .question div h1{
+    font-size: 3rem;
+  }
+
+  .container .infoContainer .question div h2{
+    font-size: 1.5rem;
+  }
   .container .infoContainer .answer{
     width: 100%;
     order: 2;
