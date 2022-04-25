@@ -67,7 +67,7 @@ const Landing = () => {
         />
         <StaticImage
           alt="excelsior coordinators"
-          src="../../images/logoGroupMb.svg"
+          src="../../images/logoGroupMb.svg" 
           loading="lazy"
           className={styles.logoImgMb}
         />
