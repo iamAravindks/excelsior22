@@ -4,7 +4,6 @@
 
 .exImgMain {
   height: 100vh;
-  /* background-color: aqua; */
   display: flex;
 
   align-items: center;
@@ -13,7 +12,6 @@
 .exImgContainer {
   display: flex;
   flex-direction: column;
-  /* background-color: red; */
   justify-content: center;
   align-items: center;
   width: 600px;
@@ -29,30 +27,15 @@
   margin-top: 1rem;
 }
 
-@media screen and (min-width: 1200px) {
-  .exImgMain {
-    justify-content: flex-end;
-    background: url("../../images/bg2.svg"), url("../../images/bg1.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  .exImgContainer {
-    margin-right: 274px;
-  }
-}
-
 /* hero text */
 
 .heroText {
   width: 100%;
   text-align: center;
-  /* margin: 50px 20px; */
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  /* background-color: red; */
   flex-direction: row;
   margin-top: 4.5rem;
 }
@@ -71,7 +54,6 @@
   background-color: #eee;
   border-radius: 0px;
   display: inline-block;
-  /* margin: 1rem; */
 
   margin-top: 1rem;
 }
@@ -101,12 +83,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
 }
 
-.question {
-  margin-right: -10rem;
-}
+
 
 .question > div > h2 {
   font-style: normal;
@@ -150,23 +129,36 @@
 
 .answer > .answer1 {
   text-align: justify;
-  margin-bottom: 2rem;
 }
 
-.logoContainer{
+.logoContainer {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #3C96D7;
-  margin-top: 3.7rem;
+  background-color: #3c96d7;
 }
 
-@media screen and (min-width: 960px) {
-  .logoImgMb{
-    display: none;
+@media screen and (min-width: 1200px) {
+  .exImgMain {
+    justify-content: flex-end;
+    background: url("../../images/bg2.svg"), url("../../images/bg1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
   }
+
+  .exImgContainer {
+    margin-right: 274px;
+  }
+  .logoContainer{
+  margin-top: 3.7rem;
+
+  }
+  .question {
+  margin-right: -10rem;
 }
+}
+
 @media screen and (max-width: 1200px) {
   .exImgMain {
     justify-content: center;
@@ -190,20 +182,10 @@
   .heroText {
     margin-top: 20px;
   }
+
 }
 
-@media screen and (max-width: 960px) {
-  .exImg {
-    height: 214px;
-    width: 372px;
-  }
-  .exImgContainer {
-    width: 390px;
-  }
-}
-
-@media screen and (max-width: 960px) {
-
+@media screen and (max-width: 959px) {
   .exImgContainer {
     width: 350px;
   }
@@ -212,82 +194,23 @@
     height: 190px;
   }
 
-  .infoContainer {
-    flex-direction: column;
-    height: 40vh;
-    padding: 1rem;
-  }
-
-  .answer1,
-  .answer2 {
-    font-weight: 600;
-    font-size: 0.813rem;
-    line-height: 143.9%;
-    text-align: justify;
-    letter-spacing: -0.005em;
-  }
-.answer{
-  height: 50%;
+  
 }
-  .answer {
-    width: 100%;
-  }
-  .question {
-    margin: 0;
-    width: 100%;
-    
-  }
 
-  .question>div{
-    width: 78%;
-  }
-  .question > div > h2 {
-    font-weight: 700;
-    font-size: 0.875rem;
-    line-height: 143.9%;
-    text-align: justify;
-    letter-spacing: 0.045em;
-  }
-
-  .question > div > h1 {
-    font-weight: 900;
-    font-size: 1.875rem;
-    line-height: 143.9%;
-    text-align: justify;
-    letter-spacing: 0.035em;
-  }
-
-  .logoContainer{
-    background: transparent;
-
-
-  }
-  .logoImg{
+@media screen and (min-width: 769px) {
+  .logoImgMb {
     display: none;
   }
 }
 
-
 @media screen and (max-width: 768px) {
 
-  .answer1,
-  .answer2 {
-    font-size: .563rem;
+  .logoContainer {
+    background: transparent;
   }
 
-  .answer {
-    height: 85%;
-  }
-
-  .question>div{
-    width: 70%;
-  }
-
-}
-
-
-@media screen and (max-width: 400px){
-  .answer{
-    height: 100%;
+  .logoImg {
+    display: none;
   }
 }
+
