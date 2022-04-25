@@ -2,6 +2,8 @@ import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import GrabBtn from "../Grabbtn/GrabBtn"
 import * as styles from "./landing.module.css"
+import Schedule from "../Schedule"
+import Events from "../Events"
 
 const Landing = () => {
   return (
@@ -72,6 +74,12 @@ const Landing = () => {
           className={styles.logoImgMb}
         />
       </div>
+
+      {/* Events */}
+      <Events/>
+
+      {/* Schedule */}
+      <Schedule />
     </div>
   )
 }
