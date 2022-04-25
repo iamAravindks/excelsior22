@@ -47,10 +47,11 @@
 .guestSection .guests .first .imageComponent .letter,
 .guestSection .guests .second .imageComponent .letter,
 .guestSection .guests .third .imageComponent .letter {
-  font-size: 10rem;
+  font-size: 14rem;
   font-weight: bold;
   position: absolute;
-  color: white;
+  color: transparent;
+  -webkit-text-stroke: 3px black;
   z-index: 9;
 }
 .guestSection .guests .first .imageComponent .content,
@@ -85,8 +86,8 @@
 }
 
 .a .letter {
-  left: -10px;
-  top: 137.03px;
+  left: -27px;
+  top: 65px;
 }
 .a .content {
   position: relative;
