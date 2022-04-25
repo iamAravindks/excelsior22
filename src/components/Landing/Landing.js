@@ -75,11 +75,6 @@ const Landing = () => {
         />
       </div>
 
-      {/* Events */}
-      <Events/>
-
-      {/* Schedule */}
-      <Schedule />
     </div>
   )
 }

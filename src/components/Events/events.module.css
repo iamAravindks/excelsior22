@@ -37,7 +37,7 @@
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 900;
   line-height: 9rem;
   letter-spacing: -0.005em;
@@ -60,7 +60,8 @@ h2 {
   .heading>h1{
     font-size: 3rem;
   }
-
-  /* .grabBtnContainer {} */
+  h2{
+    font-size: 2rem;
+  }
 
 }
