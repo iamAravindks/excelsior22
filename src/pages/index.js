@@ -5,6 +5,8 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Landing from "../components/Landing/index"
+import Schedule from "../components/Schedule/Schedule"
+import Events from "../components/Events/Events"
 import Workshops from "../components/Workshops"
 import Interactions from "../components/Interactions"
 import Faq from "../components/Faq"
@@ -14,6 +16,8 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <Landing/>
+    <Events/>
+    <Schedule/>
     <Workshops/>
     <Interactions/>
     <Faq/>
