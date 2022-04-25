@@ -118,6 +118,7 @@
   /* background-color: red; */
   height: 30vh;
   padding: 2rem;
+  gap:20px;
 }
 
 .answer1,
@@ -128,8 +129,9 @@
   font-size: 1.125rem;
   line-height: 143.9%;
   text-align: justify;
-  letter-spacing: -0.005em;
-  width: 85%;
+  width:95%;
+  word-spacing: 2px;
+  word-break: break-all;
 }
 
 .answer > .answer1 {
@@ -225,12 +227,41 @@
 
 
 /*for infoContainer*/
+@media screen and (min-width:1440px) {
+  .infoContainer{
+    position: relative;
+    top:30px;
+  }
+  
+}
+@media screen and (max-width:1440px) and (min-width:1200px) {
+  .container .infoContainer .question div h1{
+    font-size: 3rem;
+  }
 
-@media screen and (min-width:768px){
+  .container .infoContainer .question div h2{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width:796px) and (max-width:1199px){
   .container .infoContainer{
    min-height:790px ;
    position: relative;
    margin-top: 80px;   
+  }
+
+  .container .infoContainer .question div{
+    position: relative;
+    left:50px;
+  }
+
+  .container .infoContainer .question div h1{
+    font-size: 2.75rem;
+  }
+
+  .container .infoContainer .question div h2{
+    font-size: 1.65rem;
   }
   
   .container .infoContainer .answer{
@@ -242,7 +273,7 @@
   
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:794px){
 
 
   .exImgMain{
