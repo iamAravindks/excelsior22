@@ -47,8 +47,11 @@
 .guestSection .guests .first .imageComponent .letter,
 .guestSection .guests .second .imageComponent .letter,
 .guestSection .guests .third .imageComponent .letter {
-  font-size: 40px;
+  font-size: 10rem;
+  font-weight: bold;
   position: absolute;
+  color: white;
+  z-index: 9;
 }
 .guestSection .guests .first .imageComponent .content,
 .guestSection .guests .second .imageComponent .content,
@@ -57,4 +60,102 @@
   height: 265.61px;
   background-color: #292929;
   border-radius: 13px;
+  overflow: hidden;
+}
+.guestSection .guests .first .imageComponent .content h5,
+.guestSection .guests .second .imageComponent .content h5,
+.guestSection .guests .third .imageComponent .content h5 {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 12px;
+  font-size: 15px;
+}
+.guestSection .guests .first .imageComponent .content p,
+.guestSection .guests .second .imageComponent .content p,
+.guestSection .guests .third .imageComponent .content p {
+  position: relative;
+  margin-top: 8px;
+  margin-left: 12px;
+  font-size: 10px;
+}
+.guestSection .guests .first .imageComponent .content img,
+.guestSection .guests .second .imageComponent .content img,
+.guestSection .guests .third .imageComponent .content img {
+  z-index: 99;
+}
+
+.a .letter {
+  left: -10px;
+  top: 137.03px;
+}
+.a .content {
+  position: relative;
+}
+.a img {
+  position: relative;
+  margin-top: -4.5px;
+  margin-left: 25px;
+}
+
+.b .content {
+  position: relative;
+}
+.b img {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 32px;
+}
+
+.c .content {
+  position: relative;
+}
+.c img {
+  position: relative;
+  margin-top: 22.5px;
+  margin-left: 21px;
+}
+
+.d .content {
+  position: relative;
+}
+.d img {
+  position: relative;
+  margin-top: 4.85px;
+  margin-left: 4px;
+}
+
+.e .content {
+  position: relative;
+}
+.e img {
+  position: relative;
+  margin-top: 43px;
+  margin-left: 0px;
+}
+
+.f .content {
+  position: relative;
+}
+.f img {
+  position: relative;
+  margin-top: -64px;
+  margin-left: 0px;
+}
+
+.g .content {
+  position: relative;
+}
+.g img {
+  position: relative;
+  margin-top: -32.8px;
+  margin-left: 2px;
+}
+
+.h .content {
+  position: relative;
+}
+.h img {
+  position: relative;
+  margin-top: 25px;
+  margin-left: -1px;
 }/*# sourceMappingURL=Guests.module.css.map */
