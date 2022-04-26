@@ -12,6 +12,7 @@ import Workshops from "../components/Workshops"
 import Interactions from "../components/Interactions"
 import Faq from "../components/Faq"
 import Contact from "../components/Contact"
+import AlumnisTalk from "../components/AlumnisTalk"
 
 const IndexPage = () => (
   <Layout>
@@ -22,6 +23,7 @@ const IndexPage = () => (
     <Schedule />
     <Workshops />
     <Interactions />
+    <AlumnisTalk />
     <Faq />
     <Contact />
   </Layout>
