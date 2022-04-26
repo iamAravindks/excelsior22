@@ -1,0 +1,45 @@
+.sponsorSection {
+  width: 100%;
+  max-height: 800px;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+.sponsorSection h1 {
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 4rem;
+}
+.sponsorSection .alumni {
+  margin-bottom: 2rem;
+}
+.sponsorSection .sponsorText {
+  margin-top: 1.5rem;
+}
+.sponsorSection h2 {
+  font-size: 1.25rem;
+}
+.sponsorSection h3 {
+  margin-top: -59px;
+  font-size: 1.15rem;
+  font-weight: 499;
+}
+.sponsorSection .text {
+  margin-bottom: -3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .sponsorText {
+    margin-top: 3rem;
+  }
+  .sponsorText h2 {
+    font-size: 1.25rem;
+  }
+  .sponsorText h3 {
+    margin-top: -59px;
+    font-size: 1.15rem;
+    font-weight: 499;
+  }
+}/*# sourceMappingURL=Sponsor.module.css.map */
