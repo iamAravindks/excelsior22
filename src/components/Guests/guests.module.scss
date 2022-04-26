@@ -5,7 +5,7 @@
   padding-top: 158px;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
   h1 {
     text-transform: uppercase;
     text-align: center;
@@ -58,8 +58,8 @@
         }
 
         .content {
-          width: 247.43px;
-          height: 265.61px;
+          width: 257.43px;
+          height: 275.61px;
           background-color: #292929;
           border-radius: 13px;
           overflow: hidden;
@@ -73,7 +73,7 @@
             position: relative;
             margin-top: 8px;
             margin-left: 12px;
-            font-size: 10px;
+            font-size: 12px;
           }
           img {
             z-index: 99;
@@ -94,62 +94,88 @@
     background-color: red;
   }
   img {
-    position: relative;
-    margin-top: -4.5px;
-    margin-left: 25px;
+    position: absolute;
+    bottom: 0.9px;
   }
 }
 
 .b {
+  .letter {
+    top: 77px;
+    left: 160px;
+  }
   .content {
     position: relative;
+    p {
+      width: 30ch;
+    }
   }
   img {
-    position: relative;
-    margin-top: 30px;
-    margin-left: 32px;
+    position: absolute;
+    bottom: 0;
   }
 }
 
 .c {
+  .letter {
+    position: relative;
+    left: 170px;
+    top: 160px;
+  }
   .content {
     position: relative;
   }
   img {
-    position: relative;
-    margin-top: 22.5px;
-    margin-left: 21px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
   }
 }
 
 .d {
+  .letter {
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+  }
   .content {
     position: relative;
   }
   img {
-    position: relative;
-    margin-top: 4.85px;
-    margin-left: 4px;
+    position: absolute;
+    top: -19px;
   }
 }
+
 .e {
+  .letter {
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+  }
   .content {
     position: relative;
   }
   img {
-    position: relative;
-    margin-top: 43px;
-    margin-left: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
   }
 }
 .f {
+  .letter {
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+  }
   .content {
     position: relative;
   }
   img {
-    position: relative;
-    margin-top: -64px;
-    margin-left: 0px;
+    height: 250px;
+    bottom: 0;
+    left: -80px;
+    position: absolute;
   }
 }
 
@@ -174,19 +200,46 @@
     margin-left: -1px;
   }
 }
-.guestSection {
-  .guests {
-    .first {
-      .content.a {
-        background: red;
+
+.quote {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    position: relative;
+    line-height: 40px;
+    div {
+      display: flex;
+      gap: 20px;
+      position: absolute;
+      left: 660px;
+      top: 55px;
+      span:nth-child(2) {
+        background-color: #f72b22;
+      }
+      span:nth-child(3) {
+        background-color: #3c96d7;
+      }
+      span {
+        display: block;
+        width: 15px;
+        height: 15px;
+        background-color: #f8cb15;
       }
     }
   }
 }
-
 @media only screen and (max-width: 768px) {
   .guestSection {
     .guests {
+      width: 100%;
       gap: 0px;
       .first,
       .second,
