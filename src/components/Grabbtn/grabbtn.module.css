@@ -13,24 +13,28 @@
   height: 53px;
   width: 282px;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+.grabbtn > a {
   font-family: Montserrat;
-  font-size: 32px;
+  font-size: 13px;
   font-weight: 700;
   line-height: 39px;
   letter-spacing: 0em;
   text-align: center;
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
 }
-
 
 @media screen and (max-width: 1200px) {
-  .grabbtn{
-height: 26px;
-width: 138px;
-font-size: 10px;
-line-height: 29px;
+  .grabbtn {
+    height: 26px;
+    width: 138px;
+    font-size: 10px;
+    line-height: 29px;
   }
 }
-
-
-
-
