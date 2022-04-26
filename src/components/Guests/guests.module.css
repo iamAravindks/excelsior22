@@ -79,6 +79,7 @@
   margin-top: 8px;
   margin-left: 12px;
   font-size: 12px;
+  line-height: 14.5px;
 }
 .guestSection .guests .first .imageComponent .content img,
 .guestSection .guests .second .imageComponent .content img,
@@ -238,5 +239,10 @@
 .guestSection .guests .second .imageComponent,
 .guestSection .guests .third .imageComponent {
     margin-bottom: 2rem;
+  }
+}
+@media (hover: none) {
+  .guestSection .guests .imageComponent:hover .letter {
+    fill: none;
   }
 }/*# sourceMappingURL=Guests.module.css.map */

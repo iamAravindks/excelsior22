@@ -74,6 +74,7 @@
             margin-top: 8px;
             margin-left: 12px;
             font-size: 12px;
+            line-height: 14.5px;
           }
           img {
             z-index: 99;
@@ -247,6 +248,20 @@
         flex-direction: column;
         .imageComponent {
           margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media (hover: none) {
+  .guestSection {
+    .guests {
+      .imageComponent {
+        &:hover {
+          .letter {
+            fill: none;
+          }
         }
       }
     }
