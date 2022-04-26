@@ -13,7 +13,14 @@ const SideNavbar = ({
   faqRef,
   handleScroll,
   sponsorRef,
-}) => {
+  handleNavBar
+}) =>
+{
+  const handleNavBarClick = ref =>
+  {
+    handleNavBar();
+    handleScroll(ref)
+  }
   if (!sideNavBarStatus) return null
   else {
     return (
@@ -23,14 +30,14 @@ const SideNavbar = ({
         </div>
         <hr />
         <div className={styles.sideBarMenu}>
-          <a onClick={() => handleScroll(guestsRef)}>Guests</a>
-          <a onClick={() => handleScroll(workshopsRef)}>Workshops</a>
-          <a onClick={() => handleScroll(scheduleRef)}>Schedule</a>
-          <a onClick={() => handleScroll(eventRef)}>Events</a>
-          <a onClick={() => handleScroll(alumniRef)}>AlumnisTalk</a>
-          <a onClick={() => handleScroll(sponsorRef)}>Sponsors</a>
-          <a onClick={() => handleScroll(faqRef)}>FAQ</a>
-          <a onClick={() => handleScroll(contactRef)}>Team</a>
+          <a onClick={() => handleNavBarClick(guestsRef)}>Guests</a>
+          <a onClick={() => handleNavBarClick(workshopsRef)}>Workshops</a>
+          <a onClick={() => handleNavBarClick(scheduleRef)}>Schedule</a>
+          <a onClick={() => handleNavBarClick(eventRef)}>Events</a>
+          <a onClick={() => handleNavBarClick(alumniRef)}>AlumnisTalk</a>
+          {/* <a onClick={() => handleNavBarClick(sponsorRef)}>Sponsors</a> */}
+          <a onClick={() => handleNavBarClick(faqRef)}>FAQ</a>
+          <a onClick={() => handleNavBarClick(contactRef)}>Team</a>
         </div>
       </div>
     )

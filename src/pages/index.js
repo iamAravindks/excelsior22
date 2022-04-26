@@ -59,6 +59,7 @@ const IndexPage = () =>
         eventRef={eventRef}
         alumniRef={alumniRef}
         faqRef={faqRef}
+        handleNavBar={handleNavBar}
       />
       <Landing aboutRef={aboutRef} />
       <Guests guestsRef={guestsRef} />
