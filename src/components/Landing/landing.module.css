@@ -240,6 +240,9 @@
     position: relative;
     margin-top: 80px;
   }
+  .container .infoContainer .question div h2 {
+    margin: 0rem;
+  }
 
   .container .infoContainer .question div {
     position: relative;
@@ -285,6 +288,9 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 2.5rem;
+  }
+  .container .infoContainer .question div h2 {
+    margin: 0rem;
   }
   .container .infoContainer .question div h1 {
     font-size: 3rem;

@@ -5,7 +5,7 @@
   padding-top: 158px;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
 }
 .guestSection h1 {
   text-transform: uppercase;
@@ -58,8 +58,8 @@
 .guestSection .guests .first .imageComponent .content,
 .guestSection .guests .second .imageComponent .content,
 .guestSection .guests .third .imageComponent .content {
-  width: 247.43px;
-  height: 265.61px;
+  width: 257.43px;
+  height: 275.61px;
   background-color: #292929;
   border-radius: 13px;
   overflow: hidden;
@@ -78,7 +78,7 @@
   position: relative;
   margin-top: 8px;
   margin-left: 12px;
-  font-size: 10px;
+  font-size: 12px;
 }
 .guestSection .guests .first .imageComponent .content img,
 .guestSection .guests .second .imageComponent .content img,
@@ -95,54 +95,79 @@
   background-color: red;
 }
 .a img {
-  position: relative;
-  margin-top: -4.5px;
-  margin-left: 25px;
+  position: absolute;
+  bottom: 0.9px;
 }
 
+.b .letter {
+  top: 77px;
+  left: 160px;
+}
 .b .content {
   position: relative;
 }
+.b .content p {
+  width: 30ch;
+}
 .b img {
-  position: relative;
-  margin-top: 30px;
-  margin-left: 32px;
+  position: absolute;
+  bottom: 0;
 }
 
+.c .letter {
+  position: relative;
+  left: 170px;
+  top: 160px;
+}
 .c .content {
   position: relative;
 }
 .c img {
-  position: relative;
-  margin-top: 22.5px;
-  margin-left: 21px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
+.d .letter {
+  position: absolute;
+  bottom: 50px;
+  left: 0px;
+}
 .d .content {
   position: relative;
 }
 .d img {
-  position: relative;
-  margin-top: 4.85px;
-  margin-left: 4px;
+  position: absolute;
+  top: -19px;
 }
 
+.e .letter {
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+}
 .e .content {
   position: relative;
 }
 .e img {
-  position: relative;
-  margin-top: 43px;
-  margin-left: 0px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
 
+.f .letter {
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+}
 .f .content {
   position: relative;
 }
 .f img {
-  position: relative;
-  margin-top: -64px;
-  margin-left: 0px;
+  height: 250px;
+  bottom: 0;
+  left: -80px;
+  position: absolute;
 }
 
 .g .content {
@@ -163,12 +188,45 @@
   margin-left: -1px;
 }
 
-.guestSection .guests .first .content.a {
-  background: red;
+.quote {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+.quote p {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  position: relative;
+  line-height: 40px;
+}
+.quote p div {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  left: 660px;
+  top: 55px;
+}
+.quote p div span:nth-child(2) {
+  background-color: #f72b22;
+}
+.quote p div span:nth-child(3) {
+  background-color: #3c96d7;
+}
+.quote p div span {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: #f8cb15;
 }
 
 @media only screen and (max-width: 768px) {
   .guestSection .guests {
+    width: 100%;
     gap: 0px;
   }
   .guestSection .guests .first,
