@@ -1,0 +1,184 @@
+.guestSection {
+  display: flex;
+  width: 100%;
+  min-height: 900px;
+  padding-top: 158px;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.guestSection h1 {
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  font-size: 64px;
+}
+.guestSection .guests {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 40px;
+  padding: 80px 0 80px;
+  width: 85%;
+  position: relative;
+  margin: 30px 40px 90px 40px;
+  min-height: 700px;
+  background: linear-gradient(108.59deg, #3c96d7 -5.09%, #f72b22 47.54%, #f8cb15 101.72%);
+}
+.guestSection .guests .first,
+.guestSection .guests .second,
+.guestSection .guests .third {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.guestSection .guests .first .imageComponent,
+.guestSection .guests .second .imageComponent,
+.guestSection .guests .third .imageComponent {
+  width: 300.03px;
+  height: 308.41px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.guestSection .guests .first .imageComponent:hover .letter,
+.guestSection .guests .second .imageComponent:hover .letter,
+.guestSection .guests .third .imageComponent:hover .letter {
+  fill: white;
+}
+.guestSection .guests .first .imageComponent .letter,
+.guestSection .guests .second .imageComponent .letter,
+.guestSection .guests .third .imageComponent .letter {
+  position: absolute;
+  z-index: 9;
+}
+.guestSection .guests .first .imageComponent .content,
+.guestSection .guests .second .imageComponent .content,
+.guestSection .guests .third .imageComponent .content {
+  width: 247.43px;
+  height: 265.61px;
+  background-color: #292929;
+  border-radius: 13px;
+  overflow: hidden;
+}
+.guestSection .guests .first .imageComponent .content h5,
+.guestSection .guests .second .imageComponent .content h5,
+.guestSection .guests .third .imageComponent .content h5 {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 12px;
+  font-size: 15px;
+}
+.guestSection .guests .first .imageComponent .content p,
+.guestSection .guests .second .imageComponent .content p,
+.guestSection .guests .third .imageComponent .content p {
+  position: relative;
+  margin-top: 8px;
+  margin-left: 12px;
+  font-size: 10px;
+}
+.guestSection .guests .first .imageComponent .content img,
+.guestSection .guests .second .imageComponent .content img,
+.guestSection .guests .third .imageComponent .content img {
+  z-index: 99;
+}
+
+.a .letter {
+  top: 135px;
+  left: -30px;
+}
+.a .content {
+  position: relative;
+  background-color: red;
+}
+.a img {
+  position: relative;
+  margin-top: -4.5px;
+  margin-left: 25px;
+}
+
+.b .content {
+  position: relative;
+}
+.b img {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 32px;
+}
+
+.c .content {
+  position: relative;
+}
+.c img {
+  position: relative;
+  margin-top: 22.5px;
+  margin-left: 21px;
+}
+
+.d .content {
+  position: relative;
+}
+.d img {
+  position: relative;
+  margin-top: 4.85px;
+  margin-left: 4px;
+}
+
+.e .content {
+  position: relative;
+}
+.e img {
+  position: relative;
+  margin-top: 43px;
+  margin-left: 0px;
+}
+
+.f .content {
+  position: relative;
+}
+.f img {
+  position: relative;
+  margin-top: -64px;
+  margin-left: 0px;
+}
+
+.g .content {
+  position: relative;
+}
+.g img {
+  position: relative;
+  margin-top: -32.8px;
+  margin-left: 2px;
+}
+
+.h .content {
+  position: relative;
+}
+.h img {
+  position: relative;
+  margin-top: 25px;
+  margin-left: -1px;
+}
+
+.guestSection .guests .first .content.a {
+  background: red;
+}
+
+@media only screen and (max-width: 768px) {
+  .guestSection .guests {
+    gap: 0px;
+  }
+  .guestSection .guests .first,
+.guestSection .guests .second,
+.guestSection .guests .third {
+    flex-direction: column;
+  }
+  .guestSection .guests .first .imageComponent,
+.guestSection .guests .second .imageComponent,
+.guestSection .guests .third .imageComponent {
+    margin-bottom: 2rem;
+  }
+}/*# sourceMappingURL=Guests.module.css.map */
