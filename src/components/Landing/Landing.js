@@ -67,12 +67,12 @@ const Landing = ({ aboutRef }) => {
           loading="lazy"
           className={styles.logoImg}
         />
-        <StaticImage
+        {/* <StaticImage
           alt="excelsior coordinators"
           src="../../images/logoGroupMb.svg"
           loading="lazy"
           className={styles.logoImgMb}
-        />
+        /> */}
       </div>
     </div>
   )
