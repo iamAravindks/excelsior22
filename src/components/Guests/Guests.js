@@ -97,8 +97,8 @@ const Guests = () => {
               />
             </svg>
             <div className={styles.content}>
-              <h5>Name</h5>
-              <p>description</p>
+              <h5>Arjun R</h5>
+              <p>Final year, Electronics and communication student</p>
               <img src={d} />
             </div>
           </div>
@@ -119,8 +119,11 @@ const Guests = () => {
             </svg>
 
             <div className={styles.content}>
-              <h5>Name</h5>
-              <p>description</p>
+              <h5>Rasmi</h5>
+              <p>
+                Assistant System Engineer at TCS, Member of GHCI'18
+                Official-ChatBot Development Team
+              </p>
               <img src={e} />
             </div>
           </div>
@@ -140,8 +143,8 @@ const Guests = () => {
               />
             </svg>
             <div className={styles.content}>
-              <h5>Name</h5>
-              <p>description</p>
+              <h5>Aswin PG</h5>
+              <p>Co-Founder Epoq Zero LLP</p>
               <img src={f} />
             </div>
           </div>

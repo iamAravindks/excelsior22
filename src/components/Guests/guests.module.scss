@@ -91,6 +91,7 @@
   }
   .content {
     position: relative;
+    background-color: red;
   }
   img {
     position: relative;
@@ -171,5 +172,30 @@
     position: relative;
     margin-top: 25px;
     margin-left: -1px;
+  }
+}
+.guestSection {
+  .guests {
+    .first {
+      .content.a {
+        background: red;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .guestSection {
+    .guests {
+      gap: 0px;
+      .first,
+      .second,
+      .third {
+        flex-direction: column;
+        .imageComponent {
+          margin-bottom: 2rem;
+        }
+      }
+    }
   }
 }
