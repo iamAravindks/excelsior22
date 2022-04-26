@@ -1,4 +1,6 @@
-
+.container{
+  width: 100%;
+}
 
 .exImgContainer {
   display: flex;
@@ -45,6 +47,16 @@ h2 {
 
 .exImg {
   margin: 2.5rem;
+}
+.ticketHeading{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ticketHeading h2{
+  text-align: center;
+  width: 100%;
 }
 
 @media screen and (min-width: 1200px) {

@@ -3,6 +3,13 @@
     height: 80px;
     /* background-color: red; */
     padding-top: 1rem;
+    z-index: 100;
+}
+.headerM{
+        position: fixed;
+    background-color: #292929;
+    z-index: 100;
+    opacity: 0.8;
 }
 
 .headerD>nav,.headerM>nav{
@@ -17,8 +24,11 @@
     border-bottom: 2px solid #eee;
 }
 
+
+
 .headerM>nav{
     border: none;
+    
     /* background-color: red; */
 }
 

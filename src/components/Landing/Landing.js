@@ -10,7 +10,7 @@ const Landing = ({ aboutRef }) => {
     <div className={styles.container} ref={aboutRef}>
       {/* image section  */}
       <div className={styles.exImgMain}>
-        <div className={styles.exImgContainer}>
+        <div className={styles.exImgContainer} style={{marginTop:"8rem",position:"relative"}}>
           <StaticImage
             alt="excelsior'22"
             src="../../images/exMain.svg"
