@@ -7,7 +7,6 @@ const Carousel = () => {
   const state = useRef(peopleMobile)
   const [currentSlide, setCurrentSlide] = useState(0)
   const delay = useRef(4000)
-  console.log({ currentSlide })
   useEffect(() => {
     const { length } = state.current
     // console.log(length)

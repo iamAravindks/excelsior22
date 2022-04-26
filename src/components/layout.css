@@ -26,6 +26,7 @@ time, mark, audio, video {
 
 body {
     line-height:1;
+    position: relative;
 }
 
 article,aside,details,figcaption,figure,
@@ -110,3 +111,7 @@ body{
   color: #FFFFFF;  
 }
 
+html{
+    scroll-behavior: smooth;
+    transition: all 1s ease-in-out;
+}

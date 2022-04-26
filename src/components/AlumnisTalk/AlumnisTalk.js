@@ -3,14 +3,13 @@ import Carousel from "./Carousel"
 import * as styles from './alumni.module.css'
 import Mcarousel from './mobile/Mcarousel'
 
-const AlumnisTalk = () => {
+const AlumnisTalk = ({alumniRef}) => {
   return (
-        <section>
+    <section ref={alumniRef}>
       <h1>Alumni's Talk</h1>
       <Carousel />
       <Mcarousel />
     </section>
-    
   )
 }
 

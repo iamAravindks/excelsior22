@@ -6,7 +6,7 @@ import * as styles from "./workshops.module.css"
 import AOS from "aos"
 import { StaticImage } from "gatsby-plugin-image"
 
-const Learn = ({ learnRef, setSideNavBarStatus }) => {
+const Learn = ({ workshopsRef, setSideNavBarStatus }) => {
   useEffect(() => {
     AOS.init()
   }, [])
@@ -31,7 +31,7 @@ const Learn = ({ learnRef, setSideNavBarStatus }) => {
       data-aos-once="true"
       data-aos="fade-up"
       data-aos-duration="800"
-      ref={learnRef}
+      ref={workshopsRef}
       className={styles.container}
     >
       <div className={styles.header}>WORKSHOPS</div>

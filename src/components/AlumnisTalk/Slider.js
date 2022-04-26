@@ -5,7 +5,6 @@ export const Slider = ({ slides, currentSlide }) => {
   return (
     <>
       {slides.map(({ id, image }, index) => {
-        console.log({ index, currentSlide })
         return (
           <div
             key={id * index + 1}

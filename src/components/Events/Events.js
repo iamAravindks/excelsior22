@@ -3,9 +3,9 @@ import React from "react"
 import GrabBtn from "../Grabbtn/GrabBtn"
 import * as styles from "./events.module.css"
 
-const Events = () => {
+const Events = ({ eventRef }) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} ref={eventRef}>
       <div className={styles.heading}>
         <h1>EVENTS</h1>
       </div>

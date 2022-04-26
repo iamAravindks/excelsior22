@@ -5,9 +5,9 @@ import * as styles from "./landing.module.css"
 import Schedule from "../Schedule"
 import Events from "../Events"
 
-const Landing = () => {
+const Landing = ({ aboutRef }) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} ref={aboutRef}>
       {/* image section  */}
       <div className={styles.exImgMain}>
         <div className={styles.exImgContainer}>
@@ -69,12 +69,11 @@ const Landing = () => {
         />
         <StaticImage
           alt="excelsior coordinators"
-          src="../../images/logoGroupMb.svg" 
+          src="../../images/logoGroupMb.svg"
           loading="lazy"
           className={styles.logoImgMb}
         />
       </div>
-
     </div>
   )
 }

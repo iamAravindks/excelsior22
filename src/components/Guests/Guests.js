@@ -15,7 +15,7 @@ import first from "./images/first.svg";
 import last from "./images/last.svg"; */
 }
 
-const Guests = () => {
+const Guests = ({ guestsRef }) => {
   return (
     //guest section
     <div>
