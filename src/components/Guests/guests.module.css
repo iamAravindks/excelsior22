@@ -93,7 +93,9 @@
 }
 .a .content {
   position: relative;
-  background-color: red;
+}
+.a .content p {
+  padding-right: 10px;
 }
 .a img {
   position: absolute;
@@ -111,8 +113,10 @@
   width: 30ch;
 }
 .b img {
-  position: absolute;
+  height: 250px;
   bottom: 0;
+  left: -80px;
+  position: absolute;
 }
 
 .c .letter {
@@ -139,7 +143,9 @@
 }
 .d img {
   position: absolute;
-  top: -19px;
+  bottom: -53px;
+  height: 300px;
+  right: 0;
 }
 
 .e .letter {
@@ -165,28 +171,24 @@
   position: relative;
 }
 .f img {
-  height: 250px;
-  bottom: 0;
-  left: -80px;
   position: absolute;
+  bottom: 0px;
 }
 
 .g .content {
   position: relative;
 }
 .g img {
-  position: relative;
-  margin-top: -32.8px;
-  margin-left: 2px;
+  position: absolute;
+  bottom: 0px;
 }
 
 .h .content {
   position: relative;
 }
 .h img {
-  position: relative;
-  margin-top: 25px;
-  margin-left: -1px;
+  position: absolute;
+  bottom: 0px;
 }
 
 .quote {
@@ -245,4 +247,4 @@
   .guestSection .guests .imageComponent:hover .letter {
     fill: none;
   }
-}/*# sourceMappingURL=guests.module.css.map */
+}/*# sourceMappingURL=Guests.module.css.map */

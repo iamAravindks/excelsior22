@@ -92,7 +92,9 @@
   }
   .content {
     position: relative;
-    background-color: red;
+    p {
+      padding-right: 10px;
+    }
   }
   img {
     position: absolute;
@@ -112,8 +114,10 @@
     }
   }
   img {
-    position: absolute;
+    height: 250px;
     bottom: 0;
+    left: -80px;
+    position: absolute;
   }
 }
 
@@ -144,7 +148,9 @@
   }
   img {
     position: absolute;
-    top: -19px;
+    bottom: -53px;
+    height: 300px;
+    right: 0;
   }
 }
 
@@ -173,10 +179,8 @@
     position: relative;
   }
   img {
-    height: 250px;
-    bottom: 0;
-    left: -80px;
     position: absolute;
+    bottom: 0px;
   }
 }
 
@@ -185,9 +189,8 @@
     position: relative;
   }
   img {
-    position: relative;
-    margin-top: -32.8px;
-    margin-left: 2px;
+    position: absolute;
+    bottom: 0px;
   }
 }
 
@@ -196,9 +199,8 @@
     position: relative;
   }
   img {
-    position: relative;
-    margin-top: 25px;
-    margin-left: -1px;
+    position: absolute;
+    bottom: 0px;
   }
 }
 

@@ -2,6 +2,8 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import * as styles from "./guests.module.css"
 import a from "../../images/a.png"
+import b from "../../images/b.png"
+import c from "../../images/c.png"
 import d from "../../images/d.png"
 import e from "../../images/e.png"
 import f from "../../images/f.png"
@@ -40,7 +42,10 @@ const Guests = () => {
               </svg>
               <div className={styles.content}>
                 <h5>Prof. Achuthsankar S. Nair</h5>
-                <p>description</p>
+                <p>
+                  Professor of computer science, university of kerala, Author,
+                  Culture activist
+                </p>
                 <img src={a} />
               </div>
             </div>
@@ -60,14 +65,9 @@ const Guests = () => {
                 />
               </svg>
               <div className={styles.content}>
-                <h5>Sravan Sudhakaran</h5>
-                <p>
-                  Founder,Amateur Magician Virtual
-                  Community,Mentalist,Hypnotist,Pshyc-
-                  <br />
-                  hological Illusionist
-                </p>
-                <img src={h} />
+                <h5>Sanju Surendran</h5>
+                <p>Indian film maker National Award winner</p>
+                <img src={j} />
               </div>
             </div>
             <div className={styles.imageComponent + " " + styles.c}>
@@ -85,10 +85,11 @@ const Guests = () => {
                   stroke-width="2"
                 />
               </svg>
+
               <div className={styles.content}>
-                <h5>Arjun R</h5>
-                <p>Final year, Electronics and communication student</p>
-                <img src={d} />
+                <h5>Gileesh M P</h5>
+                <p>SAC Chair IEEE Kerala Section</p>
+                <img src={c} />
               </div>
             </div>
           </div>
@@ -109,9 +110,12 @@ const Guests = () => {
                 />
               </svg>
               <div className={styles.content}>
-                <h5>Aswin PG</h5>
-                <p>Co-Founder Epoq Zero LLP</p>
-                <img src={f} />
+                <h5>Shone Jose</h5>
+                <p>
+                  Vice-chair Student activities committee IEEE Section Chair-
+                  Student Activities Committee IEEE Malabar Subsection.
+                </p>
+                <img src={b} />
               </div>
             </div>
             <div className={styles.imageComponent + " " + styles.e}>
@@ -154,28 +158,33 @@ const Guests = () => {
                 />
               </svg>
               <div className={styles.content}>
-                <h5>Sanju Surendran</h5>
-                <p>description</p>
-                <img src={j} />
+                <h5>Aswin PG</h5>
+                <p>Co-Founder Epoq Zero LLP</p>
+                <img src={f} />
               </div>
             </div>
           </div>
-          {/*<div className={styles.third}>
+          <div className={styles.third}>
             <div className={styles.imageComponent + " " + styles.g}>
               <div className={styles.content}>
-                <h5>Name</h5>
-                <p>description</p>
-                <img src={g} />
+                <h5>Arjun R</h5>
+                <p>Final year, Electronics and communication student</p>
+                <img src={d} />
               </div>
             </div>
             <div className={styles.imageComponent + " " + styles.h}>
               <div className={styles.content}>
-                <h5>Name</h5>
-                <p>description</p>
+                <h5>Sravan Sudhakaran</h5>
+                <p>
+                  Founder,Amateur Magician Virtual
+                  Community,Mentalist,Hypnotist,Pshyc-
+                  <br />
+                  hological Illusionist
+                </p>
                 <img src={h} />
               </div>
             </div>
-          </div>*/}
+          </div>
         </div>
       </div>
       <div className={styles.quote}>
