@@ -19,7 +19,7 @@ const Guests = ({ guestsRef }) => {
   return (
     //guest section
     <div>
-      <div className={styles.guestSection}>
+      <div className={styles.guestSection} ref={guestsRef}>
         <h1>Guests</h1>
         <div className={styles.guests}>
           <div className={styles.first}>
