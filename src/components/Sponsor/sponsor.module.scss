@@ -12,20 +12,36 @@
     font-weight: 900;
     margin-bottom: 4rem;
   }
+  .alumni {
+    margin-bottom: 2rem;
+  }
+  .sponsorText {
+    margin-top: 1.5rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  h3 {
+    margin-top: -59px;
+    font-size: 1.15rem;
+    font-weight: 499;
+  }
 
   .text {
     margin-bottom: -3rem;
   }
-  .sponserText {
-    margin-top: 2rem;
-  }
 }
 
-@media screen and (max-width: 992x) {
+@media only screen and (max-width: 768px) {
   .sponsorText {
     margin-top: 3rem;
     h2 {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
+    }
+    h3 {
+      margin-top: -59px;
+      font-size: 1.15rem;
+      font-weight: 499;
     }
   }
 }

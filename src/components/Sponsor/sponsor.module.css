@@ -12,18 +12,34 @@
   font-weight: 900;
   margin-bottom: 4rem;
 }
+.sponsorSection .alumni {
+  margin-bottom: 2rem;
+}
+.sponsorSection .sponsorText {
+  margin-top: 1.5rem;
+}
+.sponsorSection h2 {
+  font-size: 1.25rem;
+}
+.sponsorSection h3 {
+  margin-top: -59px;
+  font-size: 1.15rem;
+  font-weight: 499;
+}
 .sponsorSection .text {
   margin-bottom: -3rem;
 }
-.sponsorSection .sponserText {
-  margin-top: 2rem;
-}
 
-@media screen and (max-width: 992x) {
+@media only screen and (max-width: 768px) {
   .sponsorText {
     margin-top: 3rem;
   }
   .sponsorText h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+  }
+  .sponsorText h3 {
+    margin-top: -59px;
+    font-size: 1.15rem;
+    font-weight: 499;
   }
 }/*# sourceMappingURL=Sponsor.module.css.map */
