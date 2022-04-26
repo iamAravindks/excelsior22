@@ -44,14 +44,15 @@
   position: relative;
   justify-content: center;
 }
+.guestSection .guests .first .imageComponent:hover .letter,
+.guestSection .guests .second .imageComponent:hover .letter,
+.guestSection .guests .third .imageComponent:hover .letter {
+  fill: white;
+}
 .guestSection .guests .first .imageComponent .letter,
 .guestSection .guests .second .imageComponent .letter,
 .guestSection .guests .third .imageComponent .letter {
-  font-size: 14rem;
-  font-weight: bold;
   position: absolute;
-  color: transparent;
-  -webkit-text-stroke: 3px black;
   z-index: 9;
 }
 .guestSection .guests .first .imageComponent .content,
@@ -86,8 +87,8 @@
 }
 
 .a .letter {
-  left: -27px;
-  top: 65px;
+  top: 135px;
+  left: -30px;
 }
 .a .content {
   position: relative;

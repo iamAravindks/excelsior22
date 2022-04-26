@@ -46,16 +46,17 @@
         display: flex;
         position: relative;
         justify-content: center;
+        &:hover {
+          .letter {
+            fill: white;
+          }
+        }
 
         .letter {
-          font-size: 14rem;
-          font-weight: bold;
           position: absolute;
-          color: transparent;
-          -webkit-text-stroke: 3px black;
-
           z-index: 9;
         }
+
         .content {
           width: 247.43px;
           height: 265.61px;
@@ -85,8 +86,8 @@
 
 .a {
   .letter {
-    left: -27px;
-    top: 65px;
+    top: 135px;
+    left: -30px;
   }
   .content {
     position: relative;
