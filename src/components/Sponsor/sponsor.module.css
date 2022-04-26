@@ -1,0 +1,29 @@
+.sponsorSection {
+  width: 100%;
+  max-height: 800px;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+.sponsorSection h1 {
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 4rem;
+}
+.sponsorSection .text {
+  margin-bottom: -3rem;
+}
+.sponsorSection .sponserText {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 992x) {
+  .sponsorText {
+    margin-top: 3rem;
+  }
+  .sponsorText h2 {
+    font-size: 1.5rem;
+  }
+}/*# sourceMappingURL=Sponsor.module.css.map */

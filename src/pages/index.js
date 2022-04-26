@@ -10,9 +10,10 @@ import Schedule from "../components/Schedule/Schedule"
 import Events from "../components/Events/Events"
 import Workshops from "../components/Workshops"
 import Interactions from "../components/Interactions"
+import Sponsor from "../components/Sponsor"
 import Faq from "../components/Faq"
 import Contact from "../components/Contact"
-import AlumnisTalk from '../components/AlumnisTalk/index'
+import AlumnisTalk from "../components/AlumnisTalk/index"
 
 const IndexPage = () => (
   <Layout>
@@ -23,7 +24,8 @@ const IndexPage = () => (
     <Schedule />
     <Workshops />
     <Interactions />
-    <AlumnisTalk/>
+    <Sponsor />
+    <AlumnisTalk />
     <Faq />
     <Contact />
   </Layout>
