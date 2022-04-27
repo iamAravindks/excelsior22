@@ -10,7 +10,6 @@
   align-content: center;
   justify-content: center;
   align-items: center;
-
 }
 
 .heading>h1 {
@@ -24,6 +23,7 @@
 
 .exImg {
   margin: 1.5rem;
+  width: 25%;
 }
 
 @media screen and (min-width: 1200px) {

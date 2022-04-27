@@ -12,19 +12,19 @@ const Schedule = ({ scheduleRef }) => {
         <div className={styles.exImgContainer}>
           <StaticImage
             alt="Day 1"
-            src="../../images/day1.svg"
+            src="../../images/day1.png"
             loading="lazy"
             className={styles.exImg}
           />
           <StaticImage
             alt="Day 2"
-            src="../../images/day2.svg"
+            src="../../images/day2.png"
             loading="lazy"
             className={styles.exImg}
           />
           <StaticImage
             alt="Day 3"
-            src="../../images/day3.svg"
+            src="../../images/day3.png"
             loading="lazy"
             className={styles.exImg}
           />
