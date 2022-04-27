@@ -38,19 +38,15 @@
   width: 60px;
 }
 .sidebar .brand .logo {
-  height: 40px;
-  width: 70px;
-  background: url("../../images/navBrandMb.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  height: 30px;
+  width: 60px;
 }
 .sidebar .brand .brandText {
   margin: 0;
   line-height: 0;
   font-size: 24px;
   position: relative;
-  top: 20px;
+  top: 16.5px;
 }
 
 .sideBarMenu {
