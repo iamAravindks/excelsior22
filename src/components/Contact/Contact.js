@@ -3,7 +3,7 @@ import * as contactStyles from "./contact.module.css";
 import { useForm, ValidationError } from '@formspree/react';
 
 
-import excelsiorImg from "../../images/contact-excelsior21.svg";
+import excelsiorImg from "../../images/contact-excelsior22.svg";
 import { useEffect } from "react"
 import AOS from "aos"
 
