@@ -27,6 +27,10 @@ const FAQ = ({faqRef, setSideNavBarStatus}) => {
           <div className={faqStyles.faqHead}>Will I be refunded if I decide to cancel my registration ?</div>
           <div className={`${faqStyles.answerLeft} ${faqStyles.faqAnswer} `}>Oops! There is no provision for refund. But you'll avail the benefit of refund in case if you have registered yourself twice for the same event by some technical issues. The technical issues must be informed to the Excelsior'21 team as soon as possible. Genuine reasons with evidences will be accepted and refunded.</div>
         </div>
+        <div data-aos-once="true" data-aos="fade-up" data-aos-duration="800" className={faqStyles.faqRight}>
+          <div className={faqStyles.faqHead}>Is food and accomodation provided?</div>
+          <div className={`${faqStyles.answerRight} ${faqStyles.faqAnswer} `}>Yes, it is included in the ticket price</div>
+        </div>
       </div>
     </div>
   );
