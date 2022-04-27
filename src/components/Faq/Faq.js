@@ -21,11 +21,11 @@ const FAQ = ({faqRef, setSideNavBarStatus}) => {
         </div>
         <div data-aos-once="true" data-aos="fade-up" data-aos-duration="800" className={faqStyles.faqRight}>
           <div className={faqStyles.faqHead}>Should I register for each event separately ?</div>
-          <div className={`${faqStyles.answerRight} ${faqStyles.faqAnswer} `}>It is your preference that matters. You can join for more than an event in Excelsior'21 provided you abide by the terms and conditions. For the same reason we have provided packages which is a mixture of events. You can choose package according to your taste and preference.</div>
+          <div className={`${faqStyles.answerRight} ${faqStyles.faqAnswer} `}>It is your preference that matters. You can join for more than an event in Excelsior'22 provided you abide by the terms and conditions. For the same reason we have provided packages which is a mixture of events. You can choose package according to your taste and preference.</div>
         </div>
         <div data-aos-once="true" data-aos="fade-up" data-aos-duration="800" className={faqStyles.faqLeft}>
           <div className={faqStyles.faqHead}>Will I be refunded if I decide to cancel my registration ?</div>
-          <div className={`${faqStyles.answerLeft} ${faqStyles.faqAnswer} `}>Oops! There is no provision for refund. But you'll avail the benefit of refund in case if you have registered yourself twice for the same event by some technical issues. The technical issues must be informed to the Excelsior'21 team as soon as possible. Genuine reasons with evidences will be accepted and refunded.</div>
+          <div className={`${faqStyles.answerLeft} ${faqStyles.faqAnswer} `}>Oops! There is no provision for refund. But you'll avail the benefit of refund in case if you have registered yourself twice for the same event by some technical issues. The technical issues must be informed to the Excelsior'22 team as soon as possible. Genuine reasons with evidences will be accepted and refunded.</div>
         </div>
         <div data-aos-once="true" data-aos="fade-up" data-aos-duration="800" className={faqStyles.faqRight}>
           <div className={faqStyles.faqHead}>Is food and accomodation provided?</div>
