@@ -13,12 +13,10 @@ const SideNavbar = ({
   faqRef,
   handleScroll,
   sponsorRef,
-  handleNavBar
-}) =>
-{
-  const handleNavBarClick = ref =>
-  {
-    handleNavBar();
+  handleNavBar,
+}) => {
+  const handleNavBarClick = ref => {
+    handleNavBar()
     handleScroll(ref)
   }
   if (!sideNavBarStatus) return null
@@ -26,6 +24,12 @@ const SideNavbar = ({
     return (
       <div className={styles.sidebar}>
         <div className={styles.brand}>
+          <StaticImage
+            alt={"AI - Image"}
+            placeholder={"blurred"}
+            className={styles.logo}
+            src={"../../images/favicon.png"}
+          />
           <h2 className={styles.brandText}>Excelsior'22</h2>
         </div>
         <hr />
