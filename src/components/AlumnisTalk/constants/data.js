@@ -4,9 +4,9 @@ import ImgThree from "../../../images/people3.svg"
 import ImgFour from "../../../images/people4.svg"
 
 import ImageOne from "../../../images/peopleMb1.svg"
-import ImageTwo from "../../../images/peopleMb1.svg"
-import ImageThree from "../../../images/peopleMb1.svg"
-import ImageFour from "../../../images/peopleMb1.svg"
+import ImageTwo from "../../../images/peopleMb2.svg"
+import ImageThree from "../../../images/peopleMb3.svg"
+import ImageFour from "../../../images/peopleMb4.svg"
 
 
 export const peopleDesktop = [

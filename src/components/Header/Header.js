@@ -7,6 +7,8 @@ const Header = ({
   handleScroll,
   aboutRef,
   contactRef,
+  workshopsRef,
+  eventRef,
 }) => {
   return (
     <>
@@ -20,13 +22,10 @@ const Header = ({
             />
           </div>
           <div className={styles.navMenu}>
-            <a  onClick={() => handleScroll(aboutRef)}>
-              About
-            </a>
-            <a >Sponsors</a>
-            <a  onClick={() => handleScroll(contactRef)}>
-              Contact
-            </a>
+            <a onClick={() => handleScroll(aboutRef)}>About</a>
+            <a onClick={() => handleScroll(workshopsRef)}>Workshops</a>
+            <a onClick={() => handleScroll(eventRef)}>Register</a>
+            <a onClick={() => handleScroll(contactRef)}>Contact</a>
           </div>
         </nav>
       </header>

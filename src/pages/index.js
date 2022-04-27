@@ -47,6 +47,8 @@ const IndexPage = () =>
         handleScroll={handleScroll}
         aboutRef={aboutRef}
         contactRef={contactRef}
+        workshopsRef={workshopsRef}
+        eventRef={eventRef}
       />
       <SideNavbar
         sideNavBarStatus={sideNavBarStatus}
