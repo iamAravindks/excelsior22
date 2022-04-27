@@ -17,6 +17,7 @@ import Contact from "../components/Contact"
 import AlumnisTalk from '../components/AlumnisTalk/index'
 import Header from "../components/Header/Header"
 import SideNavbar from "../components/sidebar/SideNavbar"
+import Footer from "../components/Footer"
 
 const IndexPage = () =>
 {
@@ -72,6 +73,7 @@ const IndexPage = () =>
       <AlumnisTalk alumniRef={alumniRef} />
       <Faq faqRef={faqRef} />
       <Contact contactRef={contactRef} />
+      <Footer />
     </Layout>
   )
 }
