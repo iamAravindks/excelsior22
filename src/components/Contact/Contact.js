@@ -31,11 +31,11 @@ const Contact = ({contactRef, setSideNavBarStatus}) => {
           <div className={contactStyles.detailsHeader}>Contact Us</div>
           <div className={contactStyles.details}>
             <div className={contactStyles.detail}>
-              <div className={contactStyles.detailsName}>Sree Lakshmi Ram B</div>
+              <div className={contactStyles.detailsName}>Sreelakshmi Ram B</div>
               <div className={contactStyles.detailsNumber}>+91 8138 923 435</div>
             </div>
             <div className={contactStyles.detail}>
-              <div className={contactStyles.detailsName}>Depak D Pai</div>
+              <div className={contactStyles.detailsName}>Deepak D Pai</div>
               <div className={contactStyles.detailsNumber}>+91 7034 630 978</div>
             </div>
           </div>
