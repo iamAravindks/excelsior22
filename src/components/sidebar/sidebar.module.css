@@ -1,19 +1,29 @@
 .sidebar {
   position: fixed;
   min-height: 450px;
-  width: 300px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   z-index: 99;
   align-items: center;
   background-color: #292929;
-  right: 50px;
+  right: 35px;
   top: 100px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   z-index: 999;
   opacity: 0.85;
   border-radius: 7px;
   overflow: hidden;
+  animation: rotate 0.5s ease;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
 }
 
 .sidebar > .brand {
@@ -29,7 +39,6 @@
 
 .sidebar hr {
   width: 90%;
-
   background-color: #eee;
 }
 .navBarLogo {
@@ -63,4 +72,11 @@
   text-decoration: none;
   color: #fff;
   cursor: pointer;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 991px) {
+  .sidebar {
+    display: none;
+  }
 }
