@@ -87,7 +87,7 @@ const Guests = ({ guestsRef }) => {
               </svg>
 
               <div className={styles.content}>
-                <h5>Gileesh M P</h5>
+                <h5>Gilesh M P</h5>
                 <p>SAC Chair IEEE Kerala Section</p>
                 <img src={c} />
               </div>
